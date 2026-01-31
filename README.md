@@ -18,7 +18,7 @@ Features a **clean, responsive, and modern UI**.
 
 ---
 
-````markdown
+
 ## Quick Start
 
 ### 1. Clone the Repository
@@ -96,7 +96,7 @@ You will see all stored tasks with **title, description, status, and timestamps*
 
 MIT License © [Manasi Gade](https://github.com/manasi-gade07)
 
-````
+
 
 
 
