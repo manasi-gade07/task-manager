@@ -5,9 +5,8 @@ A full-stack **Task Management Web Application** built with **Node.js, Express, 
 Easily **add, update, and delete tasks**, set task status (**Pending, In Progress, Completed**), and store tasks persistently in **MongoDB**.  
 Features a **clean, responsive, and modern UI**.
 
-[![Task Manager Demo](https://github.com/manasi-gade07/task-manager/blob/39e7228745efaf916cde2e8855d98316e34a4457/Preview.mp4)](https://github.com/manasi-gade07/task-manager/blob/39e7228745efaf916cde2e8855d98316e34a4457/Preview.mp4)
+![Task Manager Demo](demo.gif)
 
-> Click the image to view the demo video.
 
 ---
 
