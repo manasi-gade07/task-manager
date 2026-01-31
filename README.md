@@ -1,6 +1,4 @@
-Absolutely! Here's the full `README.md` file content all in one place. You can copy this as a single file:
 
-````markdown
 # Task Manager Web App
 
 A full-stack **Task Management Web Application** built with **Node.js, Express, MongoDB, and vanilla JavaScript**.  
@@ -100,4 +98,4 @@ You will see all stored tasks with **title, description, status, and timestamps*
 MIT License © [Manasi Gade](https://github.com/manasi-gade07)
 
 
-```
+
