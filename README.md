@@ -2,8 +2,7 @@
 # Task Manager Web App
 
 A full-stack **Task Management Web Application** built with **Node.js, Express, MongoDB, and vanilla JavaScript**.  
-Easily **add, update, and delete tasks**, set task status (**Pending, In Progress, Completed**), and store tasks persistently in **MongoDB**.  
-Features a **clean, responsive, and modern UI**.
+
 
 ![Task Manager Demo](assets/demo.gif)
 
