@@ -26,17 +26,35 @@
     <div id="taskList" class="task-list"></div>
   </div>
 
+  <!-- Update Task Modal -->
+  <div id="updateModal" class="modal">
+    <div class="modal-content">
+      <span id="closeModal" class="close">&times;</span>
+      <h2>Update Task</h2>
+      <form id="updateForm">
+        <input type="text" id="updateTitle" placeholder="Task Title" required>
+        <textarea id="updateDescription" placeholder="Task Description"></textarea>
+        <select id="updateStatus">
+          <option value="Pending">Pending</option>
+          <option value="In Progress">In Progress</option>
+          <option value="Completed">Completed</option>
+        </select>
+        <button type="submit">Update Task</button>
+      </form>
+    </div>
+  </div>
+
+  <footer class="footer">
+    Created By <span>&copy;Manasi Gade</span>
+  </footer>
+
+  <div class="background">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
   <script src="script.js"></script>
 </body>
-<footer class="footer">
-  Created By <span>&copy;Manasi Gade</span>
-</footer>
-
-<div class="background">
-  <span></span>
-  <span></span>
-  <span></span>
-  <span></span>
-</div>
-
 </html>
