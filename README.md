@@ -5,8 +5,7 @@ A full-stack **Task Management Web Application** built with **Node.js, Express, 
 Easily **add, update, and delete tasks**, set task status (**Pending, In Progress, Completed**), and store tasks persistently in **MongoDB**.  
 Features a **clean, responsive, and modern UI**.
 
-![Task Manager Demo](demo.gif)
-
+![Task Manager Demo](assets/demo.gif)
 
 ---
 
@@ -19,9 +18,10 @@ Features a **clean, responsive, and modern UI**.
 
 ---
 
+````markdown
 ## Quick Start
 
-### 1. Clone the repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/manasi-gade07/task-manager.git
@@ -37,7 +37,7 @@ npm install
 
 Create a `.env` file in the `backend/` folder:
 
-```
+```env
 MONGO_URI=your_mongodb_connection_string
 PORT=5000
 ```
@@ -63,7 +63,7 @@ const API_URL = 'http://localhost:5000/api/tasks';
 
 ## How to Verify Tasks in MongoDB
 
-You can check that tasks are stored correctly using **MongoDB Compass** or **Mongo shell**:
+You can check that tasks are stored correctly using **MongoDB Compass** or the **Mongo shell**:
 
 ```bash
 mongo
@@ -77,7 +77,7 @@ You will see all stored tasks with **title, description, status, and timestamps*
 
 ## Deployment
 
-* **Backend:** Deploy to [Render](https://render.com/) or similar
+* **Backend:** Deploy to [Render](https://render.com/) or a similar service
 * **Frontend:** Deploy to [Netlify](https://www.netlify.com/) or [Vercel](https://vercel.com/)
 * Update `API_URL` in `frontend/script.js` to point to the deployed backend
 
@@ -95,6 +95,10 @@ You will see all stored tasks with **title, description, status, and timestamps*
 ## License
 
 MIT License © [Manasi Gade](https://github.com/manasi-gade07)
+
+````
+
+
 
 
 
