@@ -1,72 +1,101 @@
+
+
+````markdown
 # Task Manager Web App
 
-A simple full-stack Task Management Web Application built with Node.js, Express, MongoDB, and vanilla JavaScript. This app allows you to add, update, and delete tasks, set task status (Pending, In Progress, Completed), and stores all tasks persistently in MongoDB. It has a clean, responsive, and modern UI.
+A full-stack **Task Management Web Application** built with **Node.js, Express, MongoDB, and vanilla JavaScript**.  
+Easily **add, update, and delete tasks**, set task status (**Pending, In Progress, Completed**), and store tasks persistently in **MongoDB**.  
+Features a **clean, responsive, and modern UI**.
 
-![Task Manager Demo](Preview.mp4)
+[![Task Manager Demo](https://github.com/manasi-gade07/task-manager/blob/39e7228745efaf916cde2e8855d98316e34a4457/Preview.mp4)](https://github.com/manasi-gade07/task-manager/blob/39e7228745efaf916cde2e8855d98316e34a4457/Preview.mp4)
+
+---
 
 ## Features
 
-- Add, update, and delete tasks
-- Set task status: Pending, In Progress, Completed
-- Tasks stored in MongoDB
-- Responsive, modern UI
+- Add, update, and delete tasks  
+- Set task status: **Pending**, **In Progress**, **Completed**  
+- Persistent storage in **MongoDB**  
+- Responsive, modern UI  
 
-## Folder Structure
+---
 
-task-manager/
-├── backend/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── config/
-│   ├── app.js
-│   └── package.json
-├── frontend/
-│   ├── index.html
-│   ├── style.css
-│   ├── script.js
-└── Preview.mp4
-├── .gitignore
-└── README.md
+## Quick Start
 
+### 1. Clone the repository
 
-
-## Setup
-
-1. Clone the repository:
-
-git clone https://github.com/<your-username>/task-manager.git
+```bash
+git clone https://github.com/manasi-gade07/task-manager.git
 cd task-manager
+````
 
-2. Backend setup:
+### 2. Backend Setup
 
+```bash
 cd backend
 npm install
+```
 
-Create a `.env` file in `backend/`:
+Create a `.env` file in the `backend/` folder:
 
+```
 MONGO_URI=your_mongodb_connection_string
 PORT=5000
+```
 
-Start backend server:
+Start the backend server:
 
+```bash
 npm run dev
+```
 
-Server runs at http://localhost:5000.
+The backend runs at: `http://localhost:5000`
 
-3. Frontend setup:
+### 3. Frontend Setup
 
-Open `frontend/index.html` in your browser.  
-Make sure `frontend/script.js` has:
+Open `frontend/index.html` in your browser.
+Ensure the backend API URL is correct in `frontend/script.js`:
 
+```javascript
 const API_URL = 'http://localhost:5000/api/tasks';
+```
+
+---
+
+## How to Verify Tasks in MongoDB
+
+You can check that tasks are stored correctly using **MongoDB Compass** or **Mongo shell**:
+
+```bash
+mongo
+use your_database_name
+db.tasks.find().pretty()
+```
+
+You will see all stored tasks with **title, description, status, and timestamps**.
+
+---
 
 ## Deployment
 
-- Backend: Deploy to Render or similar service  
-- Frontend: Deploy to Netlify or Vercel  
-- Update `API_URL` in `frontend/script.js` to point to deployed backend URL
+* **Backend:** Deploy to [Render](https://render.com/) or similar
+* **Frontend:** Deploy to [Netlify](https://www.netlify.com/) or [Vercel](https://vercel.com/)
+* Update `API_URL` in `frontend/script.js` to point to the deployed backend
+
+---
+
+## Tech Stack
+
+* **Frontend:** HTML, CSS, JavaScript
+* **Backend:** Node.js, Express
+* **Database:** MongoDB
+* **Tools:** MongoDB Compass, npm
+
+---
 
 ## License
 
-MIT License © `<Manasi Gade>`
+MIT License © [Manasi Gade](https://github.com/manasi-gade07)
+
+```
+
