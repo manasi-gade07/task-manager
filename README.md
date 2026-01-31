@@ -1,4 +1,4 @@
-
+Absolutely! Here's the full `README.md` file content all in one place. You can copy this as a single file:
 
 ````markdown
 # Task Manager Web App
@@ -8,6 +8,8 @@ Easily **add, update, and delete tasks**, set task status (**Pending, In Progres
 Features a **clean, responsive, and modern UI**.
 
 [![Task Manager Demo](https://github.com/manasi-gade07/task-manager/blob/39e7228745efaf916cde2e8855d98316e34a4457/Preview.mp4)](https://github.com/manasi-gade07/task-manager/blob/39e7228745efaf916cde2e8855d98316e34a4457/Preview.mp4)
+
+> Click the image to view the demo video.
 
 ---
 
@@ -97,5 +99,5 @@ You will see all stored tasks with **title, description, status, and timestamps*
 
 MIT License © [Manasi Gade](https://github.com/manasi-gade07)
 
-```
 
+```
