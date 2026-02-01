@@ -1,18 +1,16 @@
-# Frontend
-*.html linguist-detectable=true
-*.css linguist-detectable=true
+# Hide frontend styling & markup from language stats
+*.html linguist-vendored=true
+*.css linguist-vendored=true
+
+# Ensure programming/backend languages are counted
 *.js linguist-detectable=true
 *.jsx linguist-detectable=true
-
-# Backend
 *.py linguist-detectable=true
 *.java linguist-detectable=true
 *.sql linguist-detectable=true
 
-# Node.js / Express
-*.json linguist-vendored=true    # hide package.json if you want
+# Optional: hide tooling/config files
+*.md linguist-vendored=true
+*.json linguist-vendored=true
 *.lock linguist-vendored=true
 *.env linguist-vendored=true
-
-# Optional: Hide documentation / markdown
-*.md linguist-vendored=true
