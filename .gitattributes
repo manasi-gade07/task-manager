@@ -1,0 +1,18 @@
+# Frontend
+*.html linguist-detectable=true
+*.css linguist-detectable=true
+*.js linguist-detectable=true
+*.jsx linguist-detectable=true
+
+# Backend
+*.py linguist-detectable=true
+*.java linguist-detectable=true
+*.sql linguist-detectable=true
+
+# Node.js / Express
+*.json linguist-vendored=true    # hide package.json if you want
+*.lock linguist-vendored=true
+*.env linguist-vendored=true
+
+# Optional: Hide documentation / markdown
+*.md linguist-vendored=true
