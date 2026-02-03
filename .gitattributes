@@ -1,16 +1,5 @@
-# Hide frontend styling & markup from language stats
-*.html linguist-vendored=true
-*.css linguist-vendored=true
+# Treat frontend source files as React
+frontend/src/* linguist-language=React
 
-# Ensure programming/backend languages are counted
-*.js linguist-detectable=true
-*.jsx linguist-detectable=true
-*.py linguist-detectable=true
-*.java linguist-detectable=true
-*.sql linguist-detectable=true
-
-# Optional: hide tooling/config files
-*.md linguist-vendored=true
-*.json linguist-vendored=true
-*.lock linguist-vendored=true
-*.env linguist-vendored=true
+# Treat backend files as Node
+backend/* linguist-language=Node
